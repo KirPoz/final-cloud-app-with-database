@@ -127,7 +127,7 @@ class Question(models.Model):
              return False
 
 
-    #  <HINT> Create a Choice Model with:
+#  <HINT> Create a Choice Model with:
     # Used to persist choice content for a question
     # One-To-Many (or Many-To-Many if you want to reuse choices) relationship with Question
     # Choice content
